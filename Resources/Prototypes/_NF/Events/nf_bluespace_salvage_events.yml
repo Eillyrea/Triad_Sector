@@ -18,7 +18,7 @@
     groups:
       grid: !type:GridSpawnGroup
         nameDataset: NamesScrap
-        nameDatasetType: Nanotrasen # they're shuttles
+        nameDatasetType: FTL # they're shuttles
         minCount: 2
         maxCount: 4 #Triad
         minimumDistance: 4000 # Triad 4000 < 1000
