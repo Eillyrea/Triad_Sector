@@ -34,6 +34,7 @@
         - /Maps/_Triad/Shuttles/DERELICT/derelict-arkansaw.yml
         - /Maps/_Triad/Shuttles/DERELICT/derelict-palisade.yml
         - /Maps/_Triad/Shuttles/DERELICT/derelict-prospector.yml
+        - /Maps/_Triad/Shuttles/DERELICT/derelict-sleipnir.yml
   - type: ActiveRadio
     channels:
     - Medical
