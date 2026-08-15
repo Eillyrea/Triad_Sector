@@ -5,11 +5,11 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: StationEvent
-    startRadioAnnouncement: station-event-bluespace-scrap-start-announcement
+    startRadioAnnouncement: station-event-bluespace-medicalderelict-start-announcement
     startRadioAnnouncementChannel: Medical
-    warningRadioAnnouncement: station-event-bluespace-scrap-warning-announcement
+    warningRadioAnnouncement: station-event-bluespace-medicalderelict-warning-announcement
     warningRadioAnnouncementChannel: Medical
-    endRadioAnnouncement: station-event-bluespace-scrap-end-announcement
+    endRadioAnnouncement: station-event-bluespace-medicalderelict-end-announcement
     endRadioAnnouncementChannel: Medical
     weight: 5
     duration: 1800 # 15 minutes

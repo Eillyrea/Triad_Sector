@@ -59,8 +59,6 @@ entities:
     components:
     - type: MetaData
       name: Behir
-    - type: Transform
-      parent: invalid
     - type: MapGrid
       chunks:
         0,0:
