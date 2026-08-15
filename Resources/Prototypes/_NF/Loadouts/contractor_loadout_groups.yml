@@ -950,7 +950,6 @@
   maxLimit: 5
   loadouts:
   - ContractorEncryptionKeyTraffic
-  - ContractorEncryptionKeyMedical
   - ContractorEncryptionKeyCargo
   - ContractorEncryptionKeyEngineering
   - ContractorEncryptionKeyScience

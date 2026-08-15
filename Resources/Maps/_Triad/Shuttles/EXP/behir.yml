@@ -5828,14 +5828,6 @@ entities:
       parent: 731
     - type: Physics
       canCollide: False
-- proto: EncryptionKeyMedical
-  entities:
-  - uid: 733
-    components:
-    - type: Transform
-      parent: 731
-    - type: Physics
-      canCollide: False
 - proto: EncryptionKeyTraffic
   entities:
   - uid: 734
