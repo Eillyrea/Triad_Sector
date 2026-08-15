@@ -1,54 +1,52 @@
-- type: entity
-  id: BluespaceSalvage
-  parent: BaseStationEventNFModerateDelay # Triad
-  name: Triad Sector Bluespace Monitoring # This name shows up in the radio messages.
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: StationEvent
-    startRadioAnnouncement: station-event-bluespace-scrap-start-announcement
-    startRadioAnnouncementChannel: Medical #Triad swap to medical gameplay
-    warningRadioAnnouncement: station-event-bluespace-scrap-warning-announcement
-    warningRadioAnnouncementChannel: Medical #Triad swap to medical gameplay
-    endRadioAnnouncement: station-event-bluespace-scrap-end-announcement
-    endRadioAnnouncementChannel: Medical #Triad swap to medical gameplay
-    weight: 5
-    duration: 1800 # 15 minutes
-    maxDuration: 1800 # 15 minutes
-  - type: BluespaceErrorRule
-    groups:
-      grid: !type:GridSpawnGroup
-        nameDataset: NamesScrap
-        nameDatasetType: FTL # they're shuttles
-        minCount: 2
-        maxCount: 4 #Triad
-        minimumDistance: 4000 # Triad 4000 < 1000
-        maximumDistance: 15000 #Triad 15000 < 2000
-        addComponents:
-        - type: IFF
-          color: "#AAAAAA"
-        - type: LinkedLifecycleGridParent
+#- type: entity
+#  id: BluespaceSalvage
+#  parent: BaseStationEventNFModerateDelay # Triad
+#  name: Triad Sector Bluespace Monitoring # This name shows up in the radio messages.
+#  categories: [ HideSpawnMenu ]
+#  components:
+#  - type: StationEvent
+#    startRadioAnnouncement: station-event-bluespace-scrap-start-announcement
+#    startRadioAnnouncementChannel: Engineering
+#    warningRadioAnnouncement: station-event-bluespace-scrap-warning-announcement
+#    warningRadioAnnouncementChannel: Engineering
+#    endRadioAnnouncement: station-event-bluespace-scrap-end-announcement
+#    endRadioAnnouncementChannel: Engineering
+#    weight: 5
+#    duration: 3600 # 30 minutes
+#    maxDuration: 3600 # 30 minutes
+#  - type: BluespaceErrorRule
+#    groups:
+#      grid: !type:GridSpawnGroup
+#        nameDataset: NamesScrap
+#        nameDatasetType: Nanotrasen # they're shuttles
+#        minCount: 2
+#        maxCount: 3
+#        minimumDistance: 1000
+#        maximumDistance: 4000
+#        addComponents:
+#        - type: IFF
+#          color: "#AAAAAA"
+#        - type: LinkedLifecycleGridParent
         # Mono
         #- type: ProtectedGrid
         #  preventArtifactTriggers: true
         #- type: PreventPilot
-        - type: ClaimableGrid
-        paths:
-#        - /Maps/_NF/Shuttles/Scrap/bison.yml #Triad removed NF ships
-#        - /Maps/_NF/Shuttles/Scrap/canister.yml #Triad removed NF ships
-#        - /Maps/_NF/Shuttles/Scrap/disciple.yml #Triad removed NF ships
-#        - /Maps/_NF/Shuttles/Scrap/nugget.yml #Triad removed NF ships
-#        - /Maps/_NF/Shuttles/Scrap/orange.yml #Triad removed NF ships
-#        - /Maps/_NF/Shuttles/Scrap/point.yml #Triad removed NF ships
-#        - /Maps/_NF/Shuttles/Scrap/tide.yml #Triad removed NF ships
-#        - /Maps/_NF/Shuttles/Scrap/scrap-investigator.yml #Triad removed NF ships
-#        - /Maps/_NF/Shuttles/Scrap/scrap-hauler.yml #Triad removed NF ships
-#        - /Maps/_NF/Shuttles/Scrap/scrap-crescent.yml #Triad removed NF ships
-#        - /Maps/_NF/Shuttles/Scrap/scrap-barge.yml #Triad removed NF ships
-#        - /Maps/_NF/Shuttles/Scrap/scrap-courserx.yml #Triad removed NF ships
-#        - /Maps/_NF/Shuttles/Scrap/scrap-comet.yml #Triad removed NF ships
-#        - /Maps/_NF/Shuttles/Scrap/scrap-sprinter.yml #Triad removed NF ships
-         - /Maps/_Triad/Shuttles/DERELICT/derelict-behir.yml
-         - /Maps/_Triad/Shuttles/DERELICT/derelict-goida.yml
-  - type: ActiveRadio
-    channels:
-    - Medical #Triad swap to medical gameplay
+#        - type: ClaimableGrid
+#        paths:
+#        - /Maps/_NF/Shuttles/Scrap/bison.yml
+#        - /Maps/_NF/Shuttles/Scrap/canister.yml
+#        - /Maps/_NF/Shuttles/Scrap/disciple.yml
+#        - /Maps/_NF/Shuttles/Scrap/nugget.yml
+#        - /Maps/_NF/Shuttles/Scrap/orange.yml
+#        - /Maps/_NF/Shuttles/Scrap/point.yml
+#        - /Maps/_NF/Shuttles/Scrap/tide.yml
+#        - /Maps/_NF/Shuttles/Scrap/scrap-investigator.yml
+#        - /Maps/_NF/Shuttles/Scrap/scrap-hauler.yml
+#        - /Maps/_NF/Shuttles/Scrap/scrap-crescent.yml
+#        - /Maps/_NF/Shuttles/Scrap/scrap-barge.yml
+#        - /Maps/_NF/Shuttles/Scrap/scrap-courserx.yml
+#        - /Maps/_NF/Shuttles/Scrap/scrap-comet.yml
+#        - /Maps/_NF/Shuttles/Scrap/scrap-sprinter.yml
+#  - type: ActiveRadio
+#    channels:
+#    - Medical #Triad swap to medical gameplay

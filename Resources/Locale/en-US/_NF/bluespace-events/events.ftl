@@ -3,9 +3,13 @@ station-event-bluespace-dungeon-start-announcement = Signatures of a large inbou
 station-event-bluespace-dungeon-warning-announcement = Bluespace instability detected on foreign object, five minutes until estimated departure.
 station-event-bluespace-dungeon-end-announcement = Critical bluespace instability detected, the foreign object has exited the sector.
 
-station-event-bluespace-scrap-start-announcement = Deceased Crew detected upon destroyed ships.  Medical Dispatch, please send EMT's for recovery of the crews.
-station-event-bluespace-scrap-warning-announcement = Initiating dissipation of Derelict Ships, five minutes to recover bodies.
-station-event-bluespace-scrap-end-announcement = In compliance with TFA FTL traffic patterns, the derelict ships have been dissipated to ensure non-collision.
+station-event-bluespace-scrap-start-announcement = Storms detected in bluespace lanes, expect inbound wreckage shortly. Wrecked ships are valid salvage targets.
+station-event-bluespace-scrap-warning-announcement = Bluespace instability detected on wreckage, five minutes until expected departure.
+station-event-bluespace-scrap-end-announcement = Critical bluespace instability detected, storm wreckage has exited the sector.
+
+station-event-bluespace-medicalderelict-start-announcement = Deceased Crew detected upon destroyed ships.  Medical Dispatch, please send EMT's for recovery of the crews.
+station-event-bluespace-medicalderelict-warning-announcement = Initiating dissipation of Derelict Ships, five minutes to recover bodies.
+station-event-bluespace-medicalderelict-end-announcement = In compliance with TFA FTL traffic patterns, the derelict ships have been dissipated to ensure non-collision.
 
 station-event-bluespace-vault-start-announcement = A TDF armored supply-vault is inbound to the sector. The TDF may declare the vault a restricted No Fly Zone. Station accounts will be rewarded for its safe return.
 station-event-bluespace-vault-warning-announcement = Remote FTL procedures initialized, five minutes until vault extraction.
