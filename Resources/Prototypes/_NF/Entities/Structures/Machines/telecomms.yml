@@ -46,7 +46,7 @@
       key_slots:
       - EncryptionKeyCommon
       - EncryptionKeyTraffic
-      - EncryptionKeyMedical
+#      - EncryptionKeyMedical
 
 - type: entity
   parent: TelecomServer
