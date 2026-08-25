@@ -61,6 +61,10 @@
           state: icon
         changeSound:
           path: /Audio/Effects/Arcade/newgame.ogg
+  # Triad Start
+  - type: SavingContraband
+    examineText: ship-saving-contraband-2-text
+  # Triad End
 
 
 - type: entity
