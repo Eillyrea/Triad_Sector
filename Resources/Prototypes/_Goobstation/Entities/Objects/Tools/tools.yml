@@ -1,6 +1,6 @@
 ﻿- type: entity
   name: sonic screwdriver
-  parent: [BaseItem, BaseClass2ShipContraband]
+  parent: [BaseItem, BaseClass2AShipContraband]
   id: SonicScrewdriver
   description: Wzzzzz....
   components:

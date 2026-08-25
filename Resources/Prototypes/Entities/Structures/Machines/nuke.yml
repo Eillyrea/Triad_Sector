@@ -129,7 +129,7 @@
     bodyType: Dynamic
 
 - type: entity
-  parent: [StorageTank, BaseClass2ShipContraband]
+  parent: [StorageTank, BaseClass2AShipContraband]
   id: NuclearBombKeg
   name: nuclear fission explosive
   suffix: keg
