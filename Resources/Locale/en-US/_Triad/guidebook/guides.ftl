@@ -8,12 +8,6 @@ guide-entry-section4 = Escalation Guidelines
 guide-entry-section5 = Job Roles
 guide-entry-section6 = Mechanical Interactions
 guide-entry-section7 = Extreme/Erotic Interactions
-guide-entry-section8 = Erotic/Extreme Roleplay Section
-guide-entry-section9 = Command, Faction, and Self-Antag Guidelines
-guide-entry-section10 = Escalation Guidelines Section
-guide-entry-section11 = Ship Saving and Design
-guide-entry-section12 = Ship Saving Section
-guide-entry-section13 = Faction Section
 
 guide-entry-sector-law = Sector Law
 guide-entry-sector-law-contraband-list = Contraband List
