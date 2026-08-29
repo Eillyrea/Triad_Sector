@@ -14,7 +14,7 @@
   - type: ShipyardListing
   # Triad Start
   - type: SavingContraband
-    examineText: ship-saving-contraband-2-text
+    examineText: ship-saving-contraband-1-text
   # Triad End
 
 # The empty console
