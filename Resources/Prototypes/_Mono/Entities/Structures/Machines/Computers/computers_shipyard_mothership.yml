@@ -1,6 +1,6 @@
 - type: entity
   id: BaseCarrierComputer
-  parent: [BaseStructureDisableToolUse, BaseStructureDestructible, ComputerShipyard]
+  parent: [BaseStructureDisableToolUse, BaseStructureDestructible, ComputerShipyard, BaseClass1ShipContraband] # Triad - save contra
   suffix: Carrier
   description: Used on carriers to purchase and sell ships without returning to a station.
   abstract: true
@@ -12,17 +12,12 @@
       enum.ShipyardConsoleUiKey.Custom:
         type: ShipyardConsoleBoundUserInterface
   - type: ShipyardListing
-  # Triad Start
-  - type: SavingContraband
-    examineText: ship-saving-contraband-1-text
-  # Triad End
 
 # The empty console
 - type: entity
   id: SellOnlyCarrierComputer
   parent: BaseCarrierComputer
   name: sell only shipyard console
-
 
 # EXAMPLE LISTING - DO NOT UNCOMMENT
 #- type: entity
