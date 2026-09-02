@@ -4483,3 +4483,10 @@ Entries:
   id: 2575
   time: '2026-09-02T10:15:38.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/584
+- author: DDrakov
+  changes:
+    - type: Fix
+      message: Fixed drone cores not shooting.
+  id: 2576
+  time: '2026-09-02T16:46:43.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/598
