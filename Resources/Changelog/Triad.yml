@@ -4490,3 +4490,10 @@ Entries:
   id: 2576
   time: '2026-09-02T16:46:43.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/598
+- author: SleepyCheesehead
+  changes:
+    - type: Add
+      message: 'Added TDF support ship: Arbalest'
+  id: 2577
+  time: '2026-09-02T16:59:31.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/580
