@@ -5,7 +5,7 @@
   id: Arbalest
   parent: BaseVessel
   name: TDF Arbalest
-  description: Answering the need of firepower, Arbalest bring heavy fire support into TDF combat operation. Equipped with Charon and Dravon, it house surprisingly ample empty space due to it's original hull design are civilian in nature and enough power supply for further modification.
+  description: To answer the need of firepower, the Arbalest brings heavy fire support into TDF combat operations. Equipped with Charon and Dravon, it houses an ample amount of empty space due to the hull being refit from a civilian vessel.
   price: 118000
   category: Medium
   group: Security
