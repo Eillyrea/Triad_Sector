@@ -456,7 +456,8 @@
       selectedMode: FullAuto
       availableModes:
       - FullAuto
-      soundGunshot: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+      soundGunshot:
+        path: /Audio/_Mono/Weapons/Guns/SmallArms/Gunshots/viper_fire.ogg
 
 - type: entity
   parent: MobSyndicateNavalSaboteurA
@@ -617,7 +618,8 @@
       selectedMode: FullAuto
       availableModes:
       - FullAuto
-      soundGunshot: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+      soundGunshot:
+        path: /Audio/_Mono/Weapons/Guns/SmallArms/Gunshots/viper_fire.ogg
 
 - type: entity
   parent: MobSyndicateNavalDeckhandA
