@@ -23,7 +23,7 @@
     vessels:
     - Framework
     - Sleipnir
-    consoleType: Shipyard
+    consoleTypes: [Shipyard, Scrap] # Triad - Scrapyard addition
 
 # PDV
 
@@ -40,7 +40,7 @@
     - state: vouchermilitary
   - type: ShipyardVoucher
     destroyOnEmpty: true
-    consoleType: Custom
+    consoleTypes: [Custom]
     companyName: PDV
     vessels:
     - Mock
@@ -60,7 +60,7 @@
     - state: vouchermilitary
   - type: ShipyardVoucher
     destroyOnEmpty: true
-    consoleType: Custom
+    consoleTypes: [Custom]
     companyName: PDV
     vessels:
     - Inertia
@@ -80,7 +80,7 @@
     - state: vouchermilitary
   - type: ShipyardVoucher
     destroyOnEmpty: true
-    consoleType: Custom
+    consoleTypes: [Custom]
     companyName: PDV
     vessels:
     - Snakelet
@@ -101,7 +101,7 @@
     - state: vouchermilitary
   - type: ShipyardVoucher
     destroyOnEmpty: true
-    consoleType: Security
+    consoleTypes: [Security]
     companyName: TDF
     vessels:
     - Phalanx # Triad - modified this voucher
@@ -121,7 +121,7 @@
     - state: vouchermilitary
   - type: ShipyardVoucher
     destroyOnEmpty: true
-    consoleType: Custom
+    consoleTypes: [Custom]
     companyName: Colonial
     vessels:
     - Rook
@@ -141,7 +141,7 @@
     - state: vouchermilitary
   - type: ShipyardVoucher
     destroyOnEmpty: true
-    consoleType: Custom
+    consoleTypes: [Custom]
     companyName: Colonial
     vessels:
     - Taser
@@ -161,7 +161,7 @@
     - state: vouchermilitary
   - type: ShipyardVoucher
     destroyOnEmpty: true
-    consoleType: Custom
+    consoleTypes: [Custom]
     companyName: Colonial
     vessels:
     - Hound
