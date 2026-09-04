@@ -14,7 +14,7 @@
   parent: BaseShipVoucher
   id: ShipVoucherFrontierIronMan
   name: Ironman Voucher
-  description: Allows purchase of one free Framework from the Shipyard. Destroyed on sale.
+  description: Allows purchase of one free Framework or Sleipnir from the Shipyard. Destroyed on sale.
   components:
   - type: Sprite
     layers:
@@ -22,6 +22,7 @@
   - type: ShipyardVoucher
     vessels:
     - Framework
+    - Sleipnir
     consoleType: Shipyard
 
 # PDV
