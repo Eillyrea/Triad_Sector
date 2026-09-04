@@ -13,7 +13,7 @@
 - type: entity
   parent: BaseShipVoucher
   id: ShipVoucherFrontierIronMan
-  name: Ironman Voucher
+  name: ironman voucher
   description: Allows purchase of one free Framework or Sleipnir from the Shipyard. Destroyed on sale.
   components:
   - type: Sprite
